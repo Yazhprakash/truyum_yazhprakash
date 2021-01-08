@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <header>truYum<img src="images/truyum.jpg">
+                <a href="menu-item-list-admin.html" class="a2">Menu</a>        
+    </header>
+    <body>
+        <form class="editmenu">
+            <p id="pedit">Edit Menu Item</p>
+            <label><b>Name</b></label><br>
+            <input type="text" name="title" size="100" id="namevalid" required><br>
+            <table>
+                <tr>
+                    <td id="mtd">Price (Rs.)</td>
+                    <td id="mtd">Active</td>
+                    <td id="mtd">Date of Launch</td>
+                    <td id="mtd">Category</td>
+                </tr>
+                <tr>
+                    <td><input type="number" id="cusprice" name="price" placeholder="Price is required" required></td>
+                    <td>
+                    <input type="radio" name="inStock" class="radio1">Yes<input type="radio" name="inStock" class="radio1">No
+                    </td>
+                    <td><input type="text" name="dateOfLaunch" placeholder="Date of Launch is required" required></td>
+                    <td><select type="dropdownlist" name="category" placeholder="Select one category" required>
+                            <option>Starters</option>
+                            <option>Main Course</option>
+                            <option>Dessert</option>
+                            <option>Drinks</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" class="checkbox" name="freeDelivery"><b>Free Delivery</b></td>
+                </tr>
+                <tr>
+                    <td><a href="edit-menu-item-status.html" button type="submit" class="button" value="Save">Save</a></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+    <footer>
+        Copyright &copy 2019
+    </footer>
+</html>

@@ -1,0 +1,207 @@
+header{
+    background-color:#315496;
+    font-family:Arial;
+    color:white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 40px;
+    padding-right: 30px;
+    padding-left: 20px;
+    position: relative;
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+.h2{
+    font-family:Arial;
+}
+.a1{
+    color:white;
+    font-size:20px;
+    padding-left:50px;
+}
+.a2{
+    color:white;
+    font-size:20px;
+    float: right;
+    padding-top: 30px;
+    padding-right: 70px;
+}
+body{
+    font-family:Arial;
+}
+.editmenu
+{
+    padding-left: 80px;
+    padding-top: 30px;
+}
+.button{
+    background-color: #315496; border: none;  color: white;  padding: 11px 43px 11px 43px;  text-align: center;  text-decoration: none;  display: inline-block;
+    font-size: 16px;margin: 4px 2px;   
+}
+footer{
+    background-color:lightgrey;
+    font-family:Arial;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    position : absolute;
+    bottom:0;
+    width:100%;
+    padding-left : 20px;
+}
+nav
+{
+    float:right;
+}
+.Table{
+    color:615F5F;
+    font-family:Arial;
+}
+.radio{
+    color:black;
+    font-weight:normal;
+}
+#caption
+{  
+    padding-top: 60px;
+    text-align: left;
+    padding-bottom: 40px;
+    font-size:25px;
+}
+#pedit
+{
+    text-align: left;
+    font-size:25px;
+    padding-bottom: 10px;
+}
+th
+{
+    padding-bottom: 10px;
+}
+td
+{
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+#div1editstatus
+{
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+#div2editstatus
+{
+    padding-left: 60px;
+    color: limegreen;
+    font-weight: bold;
+}
+.divcartsuccess
+{
+    align-content: center;
+    color: limegreen;
+    font-weight: bold;
+    padding-bottom: 30px;
+    padding-right: 600px;
+}
+.formadmin
+{
+    float: left;
+    padding-left: 70px;
+}
+#nameadmin
+{
+    text-align: left;
+    padding-right: 70px;
+}
+#priceadmin
+{
+    text-align: right;
+}
+#priceadminth
+{
+    text-align: center;
+}
+#activeadminth
+{
+   text-align: left;  
+}
+#activeadmin
+{
+    text-align: center;
+    padding-left: 7px;
+}
+#dateadmin
+{
+    text-align: center;
+    padding-left: 7px;
+}
+#dateadminth
+{
+    text-align: left;
+}
+#categoryadmin
+{
+    text-align: left;
+}
+#categoryadminth
+{
+    padding-right: 40px;
+}
+#deliveryadmin
+{
+    text-align: center;
+}
+#actionadmin
+{
+    text-align: right;
+    padding-left: 20px;
+}
+th{
+    padding-right: 17px;
+}
+#custh
+{
+    text-align: center;
+}
+#cusname{
+    text-align: left;
+    padding-right: 150px;
+}
+#cusdeli
+{
+    text-align: center;
+}
+#cusprice
+{
+    text-align: right;
+}
+#cuscatth
+{
+    text-align: left;
+    padding-left: 9px;
+}
+#cusactionth
+{
+    text-align: left;
+    padding-left: 9px;
+}
+.Tablecus
+{
+    padding-right: 500px;
+}
+#mtd
+{
+    padding-bottom: 0px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+}
+select
+{
+    width: 130px;
+    padding: 1.5px 1.5px;
+}
