@@ -3,7 +3,6 @@ package com.cognizant.truyum.model;
 import java.util.Date;
 
 public class MenuItem {
-
 	private long id;
 	private String name;
 	private float price;
@@ -86,11 +85,18 @@ public class MenuItem {
 				+ dateOfLaunch + ", category=" + category + ", freeDelivery=" + freeDelivery + "]";
 	}
 
-	public boolean equals(MenuItem obj) {
-		if (this.getId() == obj.getId())
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
 			return true;
-		return false;
-
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		MenuItem other = (MenuItem) obj;
+		if (id != other.id)
+			return false;
+		return true;
 	}
 
 }
