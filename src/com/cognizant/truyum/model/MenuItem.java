@@ -11,8 +11,8 @@ public class MenuItem {
 	private String category;
 	private boolean freeDelivery;
 
-	public MenuItem(long id, String name, float price, boolean active, Date dateOfLaunch, String category,
-			boolean freeDelivery) {
+	public MenuItem(long id, String name, float f, boolean b, Date date, String string,
+			boolean c) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -23,6 +23,7 @@ public class MenuItem {
 		this.freeDelivery = freeDelivery;
 	}
 
+	
 	public long getId() {
 		return id;
 	}
